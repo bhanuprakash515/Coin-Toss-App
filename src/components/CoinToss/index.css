@@ -1,0 +1,72 @@
+/* Write your CSS here */
+.container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+  text-align: center;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  height: 650px;
+  width: 500px;
+  border-radius: 10px;
+}
+.heading {
+  color: #a35200;
+  font-family: Roboto;
+  font-weight: 20%;
+  padding-top: 10px;
+}
+.para {
+  font-size: 20px;
+  color: #334155;
+}
+
+.image {
+  height: 250px;
+  width: 250px;
+}
+
+.button {
+  background-color: #e2a139;
+  height: 40px;
+  width: 100px;
+  border: 0px;
+  border-radius: 5px;
+  color: #a35200;
+  font-weight: bold;
+  font-family: 'Roboto';
+  margin: 9px;
+}
+.count-container {
+  display: flex;
+  justify-content: space-between;
+}
+.count-para {
+  padding: 20px;
+  color: #475569;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+
+@media Screen and (max-width: 768px) {
+  .container {
+    height: 100vh;
+    width: 100%;
+  }
+  .card-container {
+    margin: 50px;
+    height: 600px;
+    width: 400px;
+    border-radius: 10px;
+  }
+}
